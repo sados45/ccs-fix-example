@@ -1,0 +1,25 @@
+#fixed{
+width:100px;
+height:100px;
+background-color: pink;
+position:fixed;
+top:0;
+left:0;
+}
+
+#box{
+width:100px;
+height:100px;
+background-color:blue;
+}
+
+body{
+height:2000px; /*eger biz pembe kutunun sayfada sabit bir yerde kalmasini istersek fixed düzenlemesiyle pembe kutu sabit bir yerde kalir. sayfayi asagi yukari ceksek de pembe kutu icin kullandigimiz position:fixed; onu sabit tutar.*/ 
+}
+#document{
+    background-color: rgb(42, 157, 165);
+    text-align:center;
+    position:sticky;/*Position:sticky ile kayan yazi metinlerinin üstünde yer alansayfa basliginin sabit kalmasinda kullandik. metin yukari dogru kaymasina ragmen baslik sabit kalmaktadir. position:fixed ie resmi ekranin belli bir yerine sabitlememizde faydasi var.*/
+    top:0;
+
+}
